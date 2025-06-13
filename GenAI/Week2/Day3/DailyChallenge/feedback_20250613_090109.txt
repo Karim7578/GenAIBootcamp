@@ -1,0 +1,11 @@
+URL: https://github.com/Karim7578/GenAIBootcamp/blob/main/GenAI/Week2/Day3/DailyChallenge/Daily_Challenge.ipynb
+suggestions for improvement:
+- The `get_animal_types` method is incorrectly implemented. It attempts to call `.sort()` directly on the dictionary, which modifies the dictionary in place and returns `None`.  It should use the `sorted()` function on the keys of the dictionary.
+- The bonus steps (6 and 7) are only partially implemented in commented-out code. The commented code for `get_short_info` is nearly complete but needs to be uncommented and integrated into the class definition.
+- The provided test case is very limited; a more thorough set of test cases would increase confidence in the code's robustness.
+Brief justification:
+- correctness: The `Farm` class correctly implements the `__init__`, `add_animal`, and `get_info` methods as specified in the instructions.  The output of `get_info` matches the example provided.  However, the bonus features (`get_animal_types` and `get_short_info`) are incomplete; `get_animal_types` is fundamentally flawed, and `get_short_info` is only partially implemented in commented-out code.  This limits the correctness score.
+- readability: The code is well-structured and easy to follow. The use of f-strings for string formatting enhances readability. The comments effectively explain each section of the code.  However, the commented-out code in the second cell detracts slightly from overall readability.
+- performance: The code's performance is good for this task. The algorithms used are efficient, and there are no obvious performance bottlenecks.
+- security: There are no apparent security vulnerabilities in the provided code.
+
