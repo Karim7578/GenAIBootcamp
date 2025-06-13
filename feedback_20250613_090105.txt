@@ -1,0 +1,8 @@
+URL: URL: https://github.com/Karim7578/GenAIBootcamp/blob/main/GenAI/Week2/Day3/exercices/Exercice_XP.ipynb
+suggestions for improvement:
+- **Exercise 1:** The `find_oldest_cat` function is efficient and correctly uses the `max` function with a lambda expression.  However, the output only shows the age, not the name as requested in the instructions.  The instructions asked to print the name and age of the oldest cat.
+- **Exercise 2:** The `Dog` class is well-implemented. However, the `find_winner` function is incomplete and contains errors. It attempts to compare dogs based on height and declare a winner, but the logic and how it uses the boolean variables is incorrect. The `winner` attribute is not defined in the `Dog` class. Step 4 is not completely addressed.
+- **Exercise 3:** The `Song` class correctly implements the `sing_me_a_song` method, fulfilling the exercise requirements.
+- **Exercise 4:** The `Zoo` class is mostly well-structured. However, the `sort_animals` method has a bug: `sorted_animals(first_letter) = []` is incorrect; it should use `sorted_animals[first_letter] = []` to properly assign a list to the key. Also, the `get_groups` method is missing.  The `sell_animal` method works as expected.
+Correctness: 80%
+-----

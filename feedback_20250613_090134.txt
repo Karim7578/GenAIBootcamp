@@ -1,0 +1,18 @@
+URL: URL: https://github.com/Karim7578/GenAIBootcamp/blob/main/GenAI/Week2/Day4/exercices/Exercice_XP_1.ipynb
+suggestions for improvement:
+- In Exercise 1, the Siamese class should have at least one additional attribute or method to reflect its unique characteristics.  The instructions suggest adding something specific to Siamese cats, but don't provide an example.
+- Exercise 3 lacks error handling.  If `self.trained` is False in `do_a_trick()`, it should ideally handle this gracefully instead of implicitly doing nothing. A message indicating the dog isn't trained could be printed.
+- In Exercise 4, the Family class's `check_majority` method assumes the existence of parents named Jane and John. This hardcoding makes the method inflexible and should be improved by allowing for variable parent names. 
+- Add docstrings to all classes and methods for better readability and understanding.
+Correctness: 90%
+-----
+URL: URL: https://github.com/Karim7578/GenAIBootcamp/blob/main/GenAI/Week2/Day4/exercices/Exercice_XP_2.ipynb
+suggestions for improvement:
+- The `Dog` class is missing from the code, causing a `ModuleNotFoundError` in Exercise 3.  The provided code for Exercise 3 attempts to define methods outside the class, which is incorrect. Methods must be defined inside a class.
+- In Exercise 3, the `__init__` method of `PetDog` should use `super().__init__(name, age, weight)` to properly initialize attributes from the parent class. 
+- Exercise 3's `play` method needs `self` as the first argument to access the dog's name.  The `*args` are not properly utilized.
+- The `do_a_trick` method in Exercise 3 correctly handles the case where the dog is not trained but can be simplified. 
+- Improve variable naming for better readability (e.g., more descriptive names).
+- Add comments to clarify the purpose of different code sections, especially within the classes and methods.
+Correctness: 50%
+-----
