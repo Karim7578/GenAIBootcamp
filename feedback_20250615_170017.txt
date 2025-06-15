@@ -1,0 +1,17 @@
+URL: URL: https://github.com/Karim7578/GenAIBootcamp/blob/main/GenAI/Week2/Day5/project/game.py
+suggestions for improvement:
+- The `rock-paper-scissors.py` file and its functions (`get_user_menu_choice`, `print_results`, `main`) are missing, which are crucial components of the mini-project as outlined in the chapter instructions.  The code only implements the `game.py` part.
+- The `get_computer_item` function in `game.py` could use `random.choice(['pierre', 'feuille', 'ciseaux'])` for better readability and maintainability.  Using `random.randint` and then mapping to strings makes the code less clear.
+- Error handling for invalid user input in `get_user_item` is good, but the prompt could be more user-friendly (e.g., showing the valid options).
+Correctness: 80%
+-----
+URL: URL: https://github.com/Karim7578/GenAIBootcamp/blob/main/GenAI/Week2/Day5/project/Project_2.ipynb
+suggestions for improvement:
+- The `game.py` file (not shown) is crucial and its correctness directly impacts the overall score.  The provided code assumes a functional `game.py` exists.  Without seeing `game.py`, a complete correctness assessment is impossible.
+- Error handling in `get_user_menu_choice()` could be improved. Instead of just printing an error message, consider using more informative feedback (e.g., specifying the type of invalid input).
+- The `print_results` function uses `get()` with a default value of 0. This is good practice for handling missing keys, preventing potential errors. However, using a more descriptive variable name such as `game_results` instead of `results` would improve readability.
+- The main loop continues even if the user chooses option 2 or 3 because `print_results` doesn't exit the loop, making it less user-friendly and harder to exit the application.
+- Consider adding more robust input validation in `main()` to handle cases where the user inputs non-numeric values. 
+- Add comments to explain the logic of the `main()` function, particularly the interaction between the menu choices, game playing, and score tracking.
+Correctness: 90%
+-----
