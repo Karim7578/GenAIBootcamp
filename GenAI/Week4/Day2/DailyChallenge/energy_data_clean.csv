@@ -1,0 +1,4 @@
+name,country,capacity_mw,generation_gwh_2019,commissioning_year
+Centrale A,FR,150.0,450.0,2010.0
+Centrale B,DE,2000.0,0.0,2012.5
+Unknown,BE,1325.0,200.0,2015.0
